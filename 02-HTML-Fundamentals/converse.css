@@ -1,0 +1,48 @@
+.product {
+  border: 5px solid black;
+  font-family: sans-serif;
+}
+.product-title {
+  background-color: lightgrey;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 24px;
+}
+
+.shipping {
+  color: gray;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.product-details {
+  text-transform: uppercase;
+}
+
+li {
+  list-style-type: square;
+}
+
+button {
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
