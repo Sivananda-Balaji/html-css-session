@@ -10,6 +10,7 @@
 .product {
   border: 5px solid black;
   font-family: sans-serif;
+  position: relative;
 }
 .product-title {
   background-color: lightgrey;
@@ -67,4 +68,52 @@
 .add-cart:hover {
   background-color: white;
   color: black;
+}
+
+.sale-label {
+  font-weight: bold;
+  display: inline;
+  background-color: #ec2f2f;
+  color: white;
+  padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  left: -35px;
+  letter-spacing: 2px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.box1 {
+  background-color: black;
+}
+
+.box2 {
+  background-color: blue;
+}
+
+.box3 {
+  background-color: red;
+}
+
+.box4 {
+  background-color: gold;
+}
+
+.box5 {
+  background-color: green;
+}
+.box6 {
+  background-color: brown;
 }
